@@ -38,7 +38,7 @@ namespace PeterAzureConfig.Controllers
 
             return new OkObjectResult(input);
 
-            //a minor change
+            //a minor change 1.1
         }
     }
 }
