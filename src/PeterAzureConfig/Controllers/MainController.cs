@@ -37,6 +37,8 @@ namespace PeterAzureConfig.Controllers
             Trace.TraceWarning($"Http Get Request Triggered {input}");
 
             return new OkObjectResult(input);
+
+            //a minor change
         }
     }
 }
