@@ -34,3 +34,5 @@ steps:
     projects: '**/*Tests/*.csproj'
     testRunTitle: 'xUnit Test Run'
 
+- task: PublishBuildArtifacts@1
+  displayName: 'display artifacts'
